@@ -12,7 +12,7 @@ let authors;
 
 /* GET ROUTES*/
 router.get('/', function (req, res, next) {
-  res.render('index', { title: 'Assignment',data:books,mg:magazines,auth:authors });
+  res.render('index', { title: 'CSV Parser Assignment',data:books,mg:magazines,auth:authors });
 });
 
 router.get('/books', function (req, res, next) {
